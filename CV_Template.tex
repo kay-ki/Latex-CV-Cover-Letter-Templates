@@ -1,0 +1,118 @@
+\documentclass[10pt,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[tmargin=0.50in,bmargin=0.25in,lmargin=1in,rmargin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{cmap}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{gradient-text}
+\setlist[itemize]{leftmargin=*}
+\setlength\itemsep{1em}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[defaultfam,alternates]{montserrat}
+\usepackage[default]{sourcesanspro}
+
+\usepackage[none]{hyphenat}
+\usepackage{microtype}
+\pagenumbering{gobble}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\setlength\parindent{0pt}
+\author{Jamie Taylor}
+
+\renewcommand{\labelitemi}{\(\diamond\)}
+
+\definecolor{accent1}{HTML}{252525} % Headings
+\definecolor{accent2}{HTML}{85eeab} % Headings Alternate
+\definecolor{accent3}{HTML}{252525} % Contact
+\definecolor{accent4}{HTML}{252525} % Headings Alt Text
+
+\newcommand{\montserrat}{\fontfamily{MontserratAlternates-LF}\selectfont}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+
+\DeclareRobustCommand{\mdseries}{\fontseries{m}\selectfont}
+\DeclareTextFontCommand{\textmd}{\mdseries}
+
+\DeclareRobustCommand{\elseries}{\fontseries{el}\selectfont}
+\DeclareTextFontCommand{\textel}{\elseries}
+
+\DeclareRobustCommand{\lseries}{\fontseries{l}\selectfont}
+\DeclareTextFontCommand{\textl}{\lseries}
+
+\begin{document}\sloppy
+	{\Huge{\textcolor{accent1}{\montserrat \textls[1]{Jamie Taylor}}}}\vspace{1ex}
+	
+	{\montserrat {\textcolor{accent3}{Sunset Avenue 45, 67890 Riverside | +44 1234 567891 \\ jamie.taylor@email.com | jamietaylor.bio}
+			\vspace{2ex}
+			
+			\begin{textblock*}{6cm}(132mm,9mm)
+				\includegraphics[width=3.5cm]{avatar.png}
+			\end{textblock*}
+			
+			\vspace{2ex}
+			
+			{\large {\sffamily\mdseries ABOUT ME}}
+			
+			{\sffamily\lseries{\small I am a passionate biologist with a strong focus on conservation and ecology. My academic background in marine biology has provided me with solid knowledge of ecosystems and environmental protection strategies. I am highly skilled in fieldwork and data analysis, with experience in GIS tools and ecological modeling. I thrive in multidisciplinary environments and am driven by a desire to contribute to sustainability efforts.}\\
+				
+				\begin{tcolorbox}[colback=accent2, coltext=accent4, sharp corners, boxrule=0pt, left=2mm, right=2mm, top=2.5mm, bottom=2mm]
+					{\large {\sffamily\mdseries \textbf{EDUCATION}}}
+				\end{tcolorbox}
+				{\small \begin{itemize}[noitemsep]\item {\sffamily\mdseries M.Sc. Marine Biology}: Grade 1.8; University of Oceanview 2018-2021\\
+						Thesis: Effects of Climate Change on Coral Reef Ecosystems in the South Pacific, Grade 1.5
+						\item {\sffamily\mdseries B.Sc. Biology}: Grade 2.0; Riverside University 2014-2018\\
+						Thesis: Population Dynamics of Coastal Bird Species, Grade 2.2
+						\item {\sffamily\mdseries High School Diploma}: Grade 1.9; Green Valley High School 2010-2014\end{itemize}
+					
+					\begin{tcolorbox}[colback=accent2, coltext=accent4, sharp corners, boxrule=0pt, left=2mm, right=2mm, top=2.5mm, bottom=2mm]
+						{\large {\sffamily\mdseries \textbf{EXPERIENCE}}}
+					\end{tcolorbox}
+					\begin{itemize}[noitemsep]{\small \item{\sffamily\mdseries Marine Research Institute} 2021-Present\\
+							Conducting field research on marine ecosystems, monitoring biodiversity, and analyzing data for conservation projects.
+							
+							\item{\sffamily\mdseries National Parks Authority} 2019-2021\\
+							Supported environmental protection initiatives, organized habitat restoration projects, and educated the public on sustainability practices.
+							
+							\item{\sffamily\mdseries Freelance Research Assistant} 2016-2019\\
+							Assisted in data collection and analysis for various ecological research projects, with a focus on biodiversity and species conservation.}
+						
+					\end{itemize}
+					\begin{tcolorbox}[colback=accent2, coltext=accent4, sharp corners, boxrule=0pt, left=2mm, right=2mm, top=2.5mm, bottom=2mm]
+						{\large {\sffamily\mdseries \textbf{EXPERTISE}}}
+					\end{tcolorbox}
+					\begin{itemize}[noitemsep]
+						{\small \item{\sffamily\mdseries Specialization}: Marine Ecology, Conservation Biology, Ecosystem Management, Biodiversity
+							\item{\sffamily\mdseries Field Skills}: Ecological Surveys, Habitat Monitoring, Field Sampling, Species Identification
+							\item{\sffamily\mdseries Data Analysis}: GIS (ArcGIS, QGIS), R, Ecological Modeling, Statistics, Excel
+							\item{\sffamily\mdseries Research}: Scientific Writing, Peer-Reviewed Publications, Report Generation
+							\item{\sffamily\mdseries Soft Skills}: Teamwork, Problem Solving, Communication, Leadership, Adaptability}
+					\end{itemize}
+					\textcolor{accent1}{\sffamily\sbseries \normalsize Languages}}
+				\begin{itemize}[noitemsep]
+					\small{\item{\sffamily\mdseries English}: Native
+						\item{\sffamily\mdseries French}: Intermediate
+						\item{\sffamily\mdseries Spanish}: Basic}
+				\end{itemize}
+				\begin{tcolorbox}[colback=accent2, coltext=accent4, sharp corners, boxrule=0pt, left=2mm, right=2mm, top=2.5mm, bottom=2mm]
+					{\large {\sffamily\mdseries \textbf{OTHER}}}
+				\end{tcolorbox}
+				\vspace{2ex}
+				\textcolor{accent1}{\sffamily\sbseries \normalsize Leadership Activities \& Engagement}
+				
+				{\small Volunteered for wildlife conservation programs / Led a team of 5 on a coastal restoration project / Participated in environmental education initiatives for local schools.}
+				
+				\textcolor{accent1}{{\sffamily\sbseries \normalsize Other Interests}}
+				
+				{\small Hiking / Photography / Scuba Diving / Nature Conservation / Wildlife Filmmaking}
+			\end{document}
