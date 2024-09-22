@@ -1,4 +1,4 @@
 # Latex-CV-Cover-Letter-Templates
-Modern application LaTeX templates
+Modern job application LaTeX templates
 
 ![Screenshot](CV.png)
